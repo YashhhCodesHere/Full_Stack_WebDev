@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/action"> <!-- Action attribute used to define what action need to be performed or send all the data to somewhere written inside action=" "-->
+        <p>Email: <input type="email" name="" id="" placeholder="Enter your email"></p> <!-- Input don't have ending tag, as it's a single tag -->
+        <p>Text: <input type="text" name="" id=""></p>
+        <p>Password: <input type="password" placeholder="Enter your password"></p>
+        <p>Number: <input type="number" placeholder="Enter your ph. no."></p>
+        <p>Time: <input type="time" name="" id=""></p>
+        <p>Date-Time: <input type="datetime-local" name="" id=""></p>
+        <p>Search: <input type="search" name="" id=""></p>
+        <p>Submit: <input type="submit" name="" id=""></p> <!--   Also, <button type="submit">Submit</button> -->
+        <p>Range: <input type="range"></p>
+        <br>    <hr>
+    </form>
+
+    <form action="/server">
+        <label> <!-- Labels are used to give a name to the input field, and connect the input field with the text. -->
+            Username: <input type="text">
+        </label>
+        <br>
+        <label>
+            Password: <input type="password">
+        </label>
+        <br>
+        <div>
+            <label for="Details">Details: </label>  <!-- Label's "for" -> Input's "id" = Connection Establish -->
+            <input type="text" name="Username" id="Details">
+        </div>
+        <br>
+        <div>
+            <button type="submit">
+                Submit
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </div>
+        <hr>
+        <input type="button" name="" id="" value="Click Me">
+    </form>
+</body>
+</html>
