@@ -1,0 +1,36 @@
+<!--
+    Use 'value' to pass the value of the radio button to the URL.
+    Same 'name' to group all the radio, checkbox, etc.
+    In same group, Only one radio button can be selected at a time, 
+    while multiple checkboxes can be selected at a time. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elements</title>
+</head>
+<body>
+    <!-- CheckBox: If CheckBox is ticked, then it will send 'on' to the URL, otherwise it will send nothing. -->
+    <form action="server/">
+        <label for="age"><b>Tick For 18+ :</b></label>
+        <input type="checkbox" name="age" id="age">
+        <input type="submit" name="" id="">
+    </form><hr>
+    <!-- Radio: If Radio is selected, then it will send the value of that radio to the URL. -->
+    <!-- If we want to make only one radio selected at a time, then we need to give the same name to all the radio buttons. Otherwise, all the radio buttons will be selected at a time. -->
+    <form action="server/">
+        <input type="radio" name="fruit" id="apple" value="Apple">  <!-- To pass the value of the radio button to the URL, we need to give the value attribute to the radio button. -->
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="Mango">
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="banana" value="Banana">
+        <label for="banana">Banana</label>
+        <button>Submit</button>
+    </form><hr>
+
+
+</body>
+</html>
+
