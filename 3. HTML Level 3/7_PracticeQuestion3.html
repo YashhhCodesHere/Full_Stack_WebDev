@@ -1,0 +1,34 @@
+<!-- for -> id   |   action -> (name = value) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Question</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/server/q">
+        <div>
+            <input type="text" name="first" id="firstname" placeholder="First Name">
+            <input type="text" name="last" id="lastname" placeholder="Last Name">
+        </div>
+
+        <div>
+            <label for="gender">Please select gender </label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="None">None of the above</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="agree">Do you agree to all terms of service?</label>
+            <input type="checkbox" name="agree" id="agree"> Yes I Agree
+        </div>
+        <button>Register</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+    <!-- The data which is passed to URL is the text written inside 'value' Attribute -->
+    <form action="/server/">
+        <div>
+            <select name="profession" id="profession">
+                <option>Select Your Option</option>
+                <option value="stu">Student</option>
+                <option value="eng">Engineer</option>
+                <option value="dev">Developer</option>
+                <option value="bca">BCA Student</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="feedback"><h3>Please give your valuable feedback:</h3></label>
+            <textarea name="feedback" id="feedback" rows="10" cols="100" placeholder="Write you FeedBack here"></textarea>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
