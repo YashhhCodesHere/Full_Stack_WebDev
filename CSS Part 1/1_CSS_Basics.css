@@ -1,0 +1,23 @@
+/* CSS is a language used to describe the style of a content */
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+/* 
+  Here:
+    h1 -> Selector
+    color -> Property
+    red -> Value
+*/
+
+/*
+    Types of CSS Implementation:
+    1. Inline CSS : Increase Redundancy as it is applied to each element!
+    2. Internal CSS : Written in the head section of the HTML file using <style> tag, reduces readability.
+    3. External CSS : Written in a separate file and linked to the HTML file using <link> tag. (Recommended)
+*/
