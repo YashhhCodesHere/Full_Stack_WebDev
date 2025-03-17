@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;     /* Relative to parent, NOT with absolute document */
+    border: dashed;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;   /* 1.5 times the normal font-size */
+    letter-spacing: 2px;    /* 2px space between each letter */
+}
+
+h2 {
+    font-weight: bold;    /* normal(400), bold(700), bolder, lighter, 100-900 */
+    text-decoration: brown dotted underline;
+}
