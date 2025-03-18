@@ -1,0 +1,33 @@
+/* Universal Selector */
+* {
+    font-family: "Verdana";
+}
+
+body {
+    background-color: #877F7D;
+}
+
+/* Element Selector */
+h3 {
+    font-style: italic;
+}
+
+h1 {
+    color: #f52936;
+}
+
+/* ID Selector */
+#login {
+    background-color: azure;
+}
+
+#signup {
+    background-color: #f52936;
+    color: aliceblue;
+}
+
+/* Class Selector */
+.up {
+    background-color: darkolivegreen;
+    color: bisque;
+}
