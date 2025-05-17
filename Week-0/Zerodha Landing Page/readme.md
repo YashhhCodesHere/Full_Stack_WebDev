@@ -28,5 +28,3 @@ A **partial clone** of the Zerodha landing page built using **HTML and CSS**. Th
 - **CSS3**
 - **Google Fonts**
 - (No JavaScript yet – purely static)
-
----
