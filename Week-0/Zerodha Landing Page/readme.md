@@ -1,7 +1,5 @@
 # Zerodha Landing Page (Partial Clone)
 
-![Zerodha Landing Page Screenshot](./preview.png) <!-- Replace with your image file name -->
-
 A **partial clone** of the Zerodha landing page built using **HTML and CSS**. This project replicates the layout and basic design of the original homepage for learning and practice purposes.
 
 ---
