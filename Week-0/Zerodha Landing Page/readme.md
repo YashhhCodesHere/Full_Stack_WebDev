@@ -4,6 +4,13 @@ A **partial clone** of the Zerodha landing page built using **HTML and CSS**. Th
 
 ---
 
+## 📷 Preview
+
+> ![Screenshot](./preview.png)  
+> *This is a static UI clone for learning HTML and CSS.*
+
+---
+
 ## 🚀 Features
 
 - Responsive Flexbox layout
@@ -23,13 +30,3 @@ A **partial clone** of the Zerodha landing page built using **HTML and CSS**. Th
 - (No JavaScript yet – purely static)
 
 ---
-
-## 📷 Preview
-
-> ![Screenshot](./preview.png)  
-> *This is a static UI clone for learning HTML and CSS.*
-
----
-
-## 📁 Folder Structure
-
