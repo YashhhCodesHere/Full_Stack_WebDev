@@ -1,0 +1,89 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #0d1117;
+    color: #c3d0e5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    box-shadow: 2px 1px 1px #eee;
+}
+
+#Logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#nav-logo{
+    height: 5dvh;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;  /* removes bullet points */
+    align-items: center;
+}
+
+#download-button{
+    background-color: #0078D4;
+    border-radius: 0.2rem;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+}
+
+h1{
+    font-family:'Trebuchet MS', sans-serif;
+    font-style: bold;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+video{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80dvw;
+    height: auto;
+    border-radius: 1em;
+}
+
+#ai-features{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2.5rem;
+}
+
+.footer-icon{
+    height: 2.5rem;
+}
+
+#left-footer-logo{
+    display: flex;
+    gap: 1.5rem;
+}
+
+#below-footer{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+}
