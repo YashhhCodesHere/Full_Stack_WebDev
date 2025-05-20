@@ -1,0 +1,37 @@
+body{
+    font-size: 50px;
+}
+
+.outer {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 2px solid teal;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6rem auto;
+    border-radius: 1rem;
+    box-shadow: 30px -16px rgba(200, 47, 47, 0.826);
+    background-color: rgba(238, 182, 150, 0.896);
+}
+
+.inner{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(107, 106, 106, 0.661);
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    margin-top: -3rem;
+    text-align: center;
+    font-style: italic;
+    background-color: antiquewhite;
+    margin-left: 17rem;
+    margin-right: 17rem;
+}
