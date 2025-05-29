@@ -1,0 +1,21 @@
+body{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 5rem;
+}
+
+button{
+    display: flex;
+    margin: 3em auto;
+    height: 3rem;
+    align-items: center;
+    border-radius: 0.7em;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
