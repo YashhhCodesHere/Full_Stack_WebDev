@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .todo-container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" name="" class="input" placeholder="Enter Your ToDo:-">
+        <button onclick="change()">CHANGE IT!</button>
+    </div>
+    <div class="todo-container">
+        
+    </div>
+
+    <script>
+        function change(){
+            let todo = document.querySelector("input").value;
+            let item = document.createElement("div");
+            let index = 0;
+            item.innerHTML = '<div class="todo-element">' + todo + '<button onclick="deleteIt('+index+')"> Delete </button></div>';
+            document.querySelector(".todo-container").append(item);
+        }
+
+        function deleteIt(index){
+            let toDelete = document.querySelectorAll(".todo-element")[index];
+            toDelete.parentElement.removeChild(toDelete);
+        }
+    </script>
+</body>
+</html>
