@@ -1,16 +1,71 @@
-body {
-    background: linear-gradient(to right, #dd5e89, #ffb88c);
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #dd5e89, #ffb88c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Centering everything inside a container */
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph and button */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+button.get-dogs {
+    padding: 0.6rem 1.2rem;
+    background-color: #dd5e89;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.get-dogs:hover {
+    background-color: #c94b7d;
+}
+
+/* Image container and image style */
 .dog-container {
-    display: inline-block; 
+    margin-top: 1.5rem;
+    display: inline-block;
     border: 2px solid rgb(143, 102, 102);
-    height: auto; 
-    padding: 5px;  
+    border-radius: 0.5rem;
+    padding: 5px;
+    background-color: #fafafa;
 }
 
 .dog-container img {
-    width: 300px;  
+    width: 300px;
     height: auto;
     display: block;
+    border-radius: 0.5rem;
 }
