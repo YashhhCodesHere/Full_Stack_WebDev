@@ -2,8 +2,20 @@
 
 ## 📸 Screenshot
 
-![Dog Fetcher Screenshot](preview.png)  
-![Dog After Fetched Screenshot](loaded.png)  
+<div style="display: flex; gap: 24px; justify-content: center; align-items: flex-start;">
+
+<div align="center">
+  
+**Before Fetching**
+  
+<img src="preview.png" alt="Dog Fetcher Screenshot" width="300"/>
+</div>
+
+<div align="center">
+  
+**After Fetching**
+  
+<img src="loaded.png" alt="Dog After Fetched Screenshot" width="
 
 A fun and beginner-friendly web app that uses the **Fetch API** to display random dog images from the [Dog CEO API](https://dog.ceo/dog-api/). Click the button and enjoy a new dog picture every time!
 
