@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, #dd5e89, #ffb88c);
+}
+
+.dog-container {
+    display: inline-block; 
+    border: 2px solid rgb(143, 102, 102);
+    height: auto; 
+    padding: 5px;  
+}
+
+.dog-container img {
+    width: 300px;  
+    height: auto;
+    display: block;
+}
