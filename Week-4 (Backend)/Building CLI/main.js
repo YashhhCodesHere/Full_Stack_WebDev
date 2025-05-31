@@ -5,7 +5,7 @@ const { program } = require("commander");
 // CLI Options
 program
   .name("text-analyzer")
-  .description("🔍 Analyze text files with different options")
+  .description("Analyze text files with different options")
   .version("1.0.0")
   .argument("<file>", "File path relative to script")
   .option("--search <word>", "Search for a word and count its occurrences")
@@ -23,33 +23,33 @@ function readf(relativePath) {
 
   fs.readFile(fullPath, "utf-8", (err, data) => {
     if (err) {
-      console.error("❌ Error reading file:", err.message);
+      console.error(" Error reading file:", err.message);
       return;
     }
 
-    console.log(`📄 Analyzing: ${relativePath}`);
+    console.log(` Analyzing: ${relativePath}`);
 
     // Word count
     const words = data.split(/\s+/);
-    console.log(`📝 Total words: ${words.length}`);
+    console.log(` Total words: ${words.length}`);
 
     // Line count
     if (options.lines) {
       const lines = data.split(/\r?\n/).length;
-      console.log(`📏 Total lines: ${lines}`);
+      console.log(` Total lines: ${lines}`);
     }
 
     // Character count
     if (options.chars) {
       const chars = data.length;
-      console.log(`🔠 Total characters: ${chars}`);
+      console.log(` Total characters: ${chars}`);
     }
 
     // Search word count
     if (options.search) {
       const target = options.search.toLowerCase();
       const count = words.filter(w => w.toLowerCase() === target).length;
-      console.log(`🔍 Occurrences of "${target}": ${count}`);
+      console.log(` Occurrences of "${target}": ${count}`);
     }
   });
 }
