@@ -10,11 +10,32 @@
 		category: 'Food',
 		itemName: 'Pizza',
 	}
-  Output - [{ category: 'Food', totalSpent: 10 }] // Can have multiple categories, only one example is mentioned here
+  Output - [{ category: 'Food', totalSpent: 10 }] // Can have multiple categories, only one example is mentioned here.
 */
 
 function calculateTotalSpentByCategory(transactions) {
-  return [];
+  const categoryTotalMap = {};
+
+  for(const txn of transactions){
+    const category = txn.category;
+    const price = txn.price;
+
+    if(categoryTotalMap[category]){
+      categoryTotalMap[category] += price;
+    }else{
+      categoryTotalMap[category] = price;
+    }
+  }
+
+  const result = [];
+
+  for(const category in categoryTotalMap){
+    result.push({
+      category : category,
+      totalSpent : categoryTotalMap[category]
+    });
+  }
+  return result;
 }
 
 module.exports = calculateTotalSpentByCategory;

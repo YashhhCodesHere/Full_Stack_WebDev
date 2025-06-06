@@ -9,5 +9,16 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
+    let prev = Date.now();
+
+    let sum = 0;
+    for(let i = 0; i < n; i++){
+        sum += i;
+    }
+
+    let after = Date.now();
+    console.log(`Total time before and after is: ${after-prev}ms`);
     return 0.01;
 }
+
+calculateTime(10000000);
